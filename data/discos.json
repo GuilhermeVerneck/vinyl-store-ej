@@ -221,7 +221,48 @@
             "emo"
         ],
         "capa": "/images/Dontpanic.png"
-    }
-
-    
+    },
+    {
+        "id": "19",
+        "spotifyId": "1BZoqf8Zje5nGdwZhOjAtD",
+        "spotifyTrackId": "0uEp9E98JB5awlA084uaIg",
+        "nome": "The Miseducation of Lauryn Hill",
+        "artista": "Ms. Lauryn Hill",
+        "preco": 270.00,
+        "descricao": "Lançado em 1998, marcou a estreia solo de Lauryn Hill e se tornou um dos álbuns mais influentes da música contemporânea. Misturando hip hop, R&B, soul e reggae, aborda temas como amor, identidade, maternidade e espiritualidade, sendo amplamente reconhecido por sua autenticidade e impacto cultural.",
+        "tags": [
+            "R&B",
+            "jazz",
+            "hip-hop"
+        ],
+        "capa": "/images/capaLauryn.png"
+    },
+    {
+        "id": "20",
+        "spotifyId": "4PLPuHFM0cnpLLWYBCzuY9",
+        "spotifyTrackId": "4peu9YxoCAmkS52XNZV1mT",
+        "nome": "Castelos & Ruínas",
+        "artista": "BK'",
+        "preco": 199.90,
+        "descricao": "Lançado em 2015, consolidou BK' como um dos principais nomes do rap nacional. Com letras introspectivas e críticas sociais, o álbum combina influências do boom bap, jazz e soul para abordar temas como desigualdade, ambição, identidade e a realidade das periferias, tornando-se um marco do hip hop brasileiro.",
+        "tags": [
+            "rap",
+            "hip-hop"
+        ],
+        "capa": "/images/capaCastelos.png"
+    },
+    {
+        "id": "21",
+        "spotifyId": "5risYG7klZCSLMNxB9dZhf",
+        "spotifyTrackId": "2eDUcjS6SSDJd6Rcx4TFkd",
+        "nome": "Clube da Esquina",
+        "artista": "Milton Nascimento",
+        "preco": 350,
+        "descricao": "Lançado em 1972, é considerado um dos maiores álbuns da música brasileira. Unindo MPB, rock, jazz, música folclórica e influências latino-americanas, o disco apresenta arranjos inovadores e letras poéticas que abordam amizade, liberdade e identidade, tornando-se uma obra-prima atemporal da cultura brasileira.",
+        "tags": [
+            "MPB",
+            "jazz"
+        ],
+        "capa": "/images/capaClube.png"
+    }   
 ]

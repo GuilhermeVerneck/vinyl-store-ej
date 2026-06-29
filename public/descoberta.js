@@ -98,4 +98,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     await inicializar();
+
+    document.documentElement.dataset.vtDirection
 });

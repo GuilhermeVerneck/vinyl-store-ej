@@ -306,4 +306,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
+    navigation.addEventListener('navigate', (e) => {
+        if (e.navigationType === 'traverse' && e.destination.index < navigation.currentEntry.index) {
+            document.documentElement.dataset.vtDirection = 'back';
+        } else {
+            delete document.documentElement.dataset.vtDirection;
+        }
+    });
+
 });

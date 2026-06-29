@@ -9,19 +9,6 @@
 
 </head>
 
-<script>
-    document.querySelectorAll('a[href]').forEach(link => {
-        link.addEventListener('click', () => {
-            const destino = link.getAttribute('href');
-            if (destino && (destino.includes('index') || destino === '/')) {
-                document.documentElement.setAttribute('data-vt-direction', 'back');
-            } else {
-                document.documentElement.removeAttribute('data-vt-direction');
-            }
-        });
-    });
-</script>
-
 <body>
     <header>
         <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
@@ -41,7 +28,8 @@
     <nav style="background: #1a1a1e; border-bottom: 1px solid #29292e; padding: 12px 0;">
         <div class="container" style="display: flex; gap: 24px;">
             <a href="/index.html" style="color: #8d8d99; text-decoration: none; font-size: 0.95rem; transition: color 0.2s;">🎵 Catálogo</a>
-            <a href="/descoberta.html" style="color: #9844d4; text-decoration: none; font-size: 0.95rem; font-weight: bold;">🎲 Descoberta</a>
+            <a href="/descoberta.html" style="color: #9844d4; text-decoration: none; font-size: 0.95rem; font-weight: bold; transition: color 0.2s;">🎲 Descoberta</a>
+            <a href="/contato.html" style="color: #8d8d99; text-decoration: none; font-size: 0.95rem; transition: color 0.2s;">✉️ Contato</a>
         </div>
     </nav>
 
@@ -78,5 +66,7 @@
     </footer>
 
     <script src="descoberta.js"></script>
+    <script src="/nav-transition.js"></script>
+    
 </body>
 </html>
