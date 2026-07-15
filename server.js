@@ -4,14 +4,14 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.json()); // ← veio para cá
+app.use(express.json());
 
 app.use(
     session({
-        secret: 'chave-vinil-token-2026',
+        secret: process.env.SESSION_SECRET || 'chave-vinil-token-2026',
         resave: false,
         saveUninitialized: true,
         cookie: {
