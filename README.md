@@ -26,3 +26,7 @@ Base funcional de um e-commerce musical, com frontend integrado a um backend Nod
 ## 👥 Equipe
 
 Projeto desenvolvido em grupo (4 integrantes) para a SciTecJr.
+
+## 🔗 Demo / Links
+
+- [**Site**]([https://github.com/GuilhermeVerneck/vinyl-store-ej])
