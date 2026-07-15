@@ -29,4 +29,4 @@ Projeto desenvolvido em grupo (4 integrantes) para a SciTecJr.
 
 ## 🔗 Demo / Links
 
-- [**Site**](https://github.com/GuilhermeVerneck/vinyl-store-ej)
+- [**Site**](https://vinyl-store-ej.onrender.com)
